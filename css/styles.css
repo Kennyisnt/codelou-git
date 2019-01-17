@@ -1,4 +1,6 @@
 * {
+background-color: black;
+text-align: center;
 color: white;
 font-size: 30px;
 font-familY: "Courier New", Courier, monospace;
@@ -27,12 +29,13 @@ li a {
   font-weight: bold;
 }
 .active {
-  color: orange;
+  color: lime;
+  border-right: 20px lime solid;
 }
 /* NAV BAR END */
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  color: white;
-  background-color: orange;
+  color: black;
+  background-color: lime;
 }
