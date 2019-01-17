@@ -6,39 +6,33 @@ font-familY: "Courier New", Courier, monospace;
 
 /* NAVIGATION BAR START  */
 nav {
-  background-color: black;
   text-align: center;
-  width: 100%;
-  font-weight: bold;
-
-
 }
-nav, ul, li {
-  padding: 0;
+ul {
   margin: 0;
-  border: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
 }
 li {
-  list-style-type: none;
-  display: inline;
+  display: inline-block; /* Apparently this doesn't work in IE7 */
+  *display: inline; /* this is here for windows 7*/
+  zoom:1;
 }
-li+a {
-    padding: 0 10%;
-}
-li:last-child {
-  border: none;
+li a {
+  color: white;
+  text-align: center;
+  /* padding: 7px; */
+  text-decoration: none;
+  font-weight: bold;
 }
 .active {
   color: orange;
-  text-decoration: none;
 }
-/* NAVIGATION BAR END */
+/* NAV BAR END */
 
-/* LINKS ON THE PAGE */
-a:hover {
+/* Change the link color to #111 (black) on hover */
+li a:hover {
   color: white;
   background-color: orange;
-}
-a, a:link, a:visited {
-  text-decoration: none;
 }
