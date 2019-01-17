@@ -26,13 +26,21 @@ li a {
   text-align: center;
   padding: 0 5px 0 0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold;	
 }
 .active {
   color: lime;
   border-right: 20px lime solid;
 }
 /* NAV BAR END */
+
+
+
+h1 {
+	font-size: 2em;
+}
+
+
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
