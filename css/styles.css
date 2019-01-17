@@ -1,37 +1,44 @@
 * {
 color: white;
-font-size: 26px;
+font-size: 30px;
+font-familY: "Courier New", Courier, monospace;
 }
 
+/* NAVIGATION BAR START  */
 nav {
   background-color: black;
   text-align: center;
+  width: 100%;
+  font-weight: bold;
+
 
 }
-ul, li {
+nav, ul, li {
   padding: 0;
   margin: 0;
   border: 0;
 }
-
 li {
   list-style-type: none;
-  margin: 0;
-  padding: 5px;
   display: inline;
-  border-right: white solid 1px;
 }
-
+li+a {
+    padding: 0 10%;
+}
 li:last-child {
   border: none;
 }
-
 .active {
-  background-color: black;
+  color: orange;
   text-decoration: none;
 }
+/* NAVIGATION BAR END */
 
-li:hover, .active:hover {
-  color: blue;
-  background-color: lightblue;
+/* LINKS ON THE PAGE */
+a:hover {
+  color: white;
+  background-color: orange;
+}
+a, a:link, a:visited {
+  text-decoration: none;
 }
