@@ -1,18 +1,30 @@
 * {
-text-align: center;
-background-color: slategray;
 color: white;
 font-size: 26px;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 li {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   display: inline;
-  border: black solid 1px;
+  border-right: white solid 1px;
 }
 
+li:last-child {
+  border: none;
+}
 
 .active {
   background-color: black;
