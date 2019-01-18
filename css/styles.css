@@ -28,9 +28,14 @@ li a {
   text-decoration: none;
   font-weight: bold;
 }
+@keyframes blink {
+   50% { border-color: black; }
+}
 .active {
   color: lime;
   border-right: 20px lime solid;
+  border-spacing: inherit;
+  animation: blink .5s step-end infinite alternate;
 }
 /* NAV BAR END */
 
