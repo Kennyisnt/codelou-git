@@ -18,7 +18,7 @@ ul {
 }
 li {
   display: inline-block; /* Apparently this doesn't work in IE7 */
-  *display: inline; /* this is here for windows 7*/
+  *display: inline; /* this is here for IE7*/
   zoom:1;
 }
 li a {
