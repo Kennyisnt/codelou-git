@@ -16,11 +16,7 @@ ul {
   overflow: hidden;
   background-color: black;
 }
-li {
-  display: inline-block; /* Apparently this doesn't work in IE7 */
-  *display: inline; /* this is here for IE7*/
-  zoom:1;
-}
+
 li a {
   color: white;
   text-align: center;
@@ -51,8 +47,52 @@ h1 {
 
 
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover and text to green */
 li a:hover {
   color: black;
   background-color: lime;
+}
+/*  Clear Fix Stuff */
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+@media (min-width: 759px) {
+
+  .navbar {
+
+    height: 80px;
+    max-width: 100%;
+    /* border: red 1px solid; */
+
+  }
+  .main-header {
+    float: left;
+    border: lime 1px solid;
+    width: 15%;
+  }
+  .main-header h1 {
+    font-size: 36px;
+    text-align: left;
+
+  }
+  .main-nav {
+    text-align: center;
+    float: right;
+    max-width: 85%;
+    border: lime 1px solid;
+
+  }
+
+  li {
+    display: inline-block; /* Apparently this doesn't work in IE7 */
+    *display: inline; /* this is here for IE7*/
+    zoom:1;
+  }
+
+  nav ul li a {
+    font-size: 36px;
+
+  }
 }
