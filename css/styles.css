@@ -9,12 +9,9 @@ font-family: "Courier New", Courier, monospace;
 body {
   width: 95%;
   margin: 0 auto;
-  padding-top: 320px;
+  /* padding-top: 320px; */
 }
-.navbar {
-  width: 95%;
-  margin: 0 auto;
-}
+
 
 h1 {
 	font-size: 1.5em;
@@ -27,9 +24,10 @@ h1 {
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  position: fixed;
-  top: 0;
-  left: 0;
+  margin-top: 20px;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
 }
 
 ul {
@@ -57,7 +55,8 @@ li a {
 /* NAV BAR END */
 
 hr {
-  border: 1px solid lime;
+  border: 2px solid lime;
+  margin: 20px 0;
 
 }
 
@@ -103,7 +102,7 @@ li a:hover {
   background-color: lime;
   color: black;
 }
-footer a {
+.social {
   padding: 20px;
   font-size: 30px;
   width: 25px;
@@ -115,6 +114,9 @@ footer a {
   border: 2px solid lime;
   color: lime;
 }
-footer p {
+footer p, footer a {
   font-size: 16px;
+}
+#top a {
+  position: relative;
 }
