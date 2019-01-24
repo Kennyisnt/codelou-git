@@ -59,40 +59,44 @@ li a:hover {
   display: table;
 }
 @media (min-width: 759px) {
-
+  /* header/navbar section content */
   .navbar {
-
-    height: 80px;
-    max-width: 100%;
-    /* border: red 1px solid; */
-
+    /* border: solid 1px red; */
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .nav-col {
+    float: left;
   }
   .main-header {
-    float: left;
-    border: lime 1px solid;
-    width: 15%;
-  }
-  .main-header h1 {
-    font-size: 36px;
-    text-align: left;
-
+    /* float:left; */
+    width: 19%;
+    border: 1px blue solid;
+    margin: 0;
+    padding: 0;
   }
   .main-nav {
-    text-align: center;
+    margin: 0;
+    padding: 0;
     float: right;
-    max-width: 85%;
-    border: lime 1px solid;
+    width: 80%;
+    border: 1px green solid;
 
   }
+  nav ul li{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid lime;
 
+
+  }
   li {
     display: inline-block; /* Apparently this doesn't work in IE7 */
     *display: inline; /* this is here for IE7*/
     zoom:1;
   }
 
-  nav ul li a {
-    font-size: 36px;
 
   }
 }
