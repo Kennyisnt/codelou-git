@@ -3,13 +3,35 @@ background-color: black;
 text-align: center;
 color: white;
 font-size: 30px;
-font-familY: "Courier New", Courier, monospace;
+font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 320px;
+}
+.navbar {
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.5em;
 }
 
 /* NAVIGATION BAR START  */
-nav {
+
+.navbar {
+  /* border: solid 1px red; */
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
 ul {
   margin: 0;
   padding: 0;
@@ -19,20 +41,18 @@ ul {
 
 li a {
   color: white;
-  text-align: center;
-  padding: 0 5px 0 0;
+  display: block;
+  margin: 0 20px;;
+  padding: .5%;
+  border: lime solid 1px;
+  border-radius: 20px;
   text-decoration: none;
-  margin: 0 20px;
-  font-weight: bolder;
+  font-weight: bold;
 }
-@keyframes blink {
-   50% { border-color: black; }
-}
+
 .active {
   color: lime;
-  border-right: 20px lime solid;
   border-spacing: inherit;
-  animation: blink .5s step-end infinite alternate;
 }
 /* NAV BAR END */
 
@@ -41,8 +61,14 @@ hr {
 
 }
 
-h1 {
-	font-size: 2em;
+
+.cont-col {
+  border: 1px lime solid;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  padding: 0 5%;
+
 }
 
 
@@ -58,45 +84,37 @@ li a:hover {
   clear: both;
   display: table;
 }
-@media (min-width: 759px) {
-  /* header/navbar section content */
-  .navbar {
-    /* border: solid 1px red; */
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-  }
-  .nav-col {
-    float: left;
-  }
-  .main-header {
-    /* float:left; */
-    width: 19%;
-    border: 1px blue solid;
-    margin: 0;
-    padding: 0;
-  }
-  .main-nav {
-    margin: 0;
-    padding: 0;
-    float: right;
-    width: 80%;
-    border: 1px green solid;
-
-  }
-  nav ul li{
-    margin: 0px;
-    padding: 0px;
-    border: 1px solid lime;
 
 
-  }
-  li {
-    display: inline-block; /* Apparently this doesn't work in IE7 */
-    *display: inline; /* this is here for IE7*/
-    zoom:1;
-  }
+}
+/* MEDIA WINDOWS MOVED TO css/media.css for cleanliness */
 
 
-  }
+/* SOCIAL MEDIA LINKS modified from w3schools BRAND icons page */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  background-color: lime;
+  color: black;
+}
+footer a {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid lime;
+  color: lime;
+}
+footer p {
+  font-size: 16px;
 }
