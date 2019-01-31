@@ -42,8 +42,8 @@ li a {
   display: block;
   margin: 0 20px;;
   padding: .5%;
-  border: lime solid 1px;
-  border-radius: 20px;
+  /* border: lime solid 1px; */
+  /* border-radius: 20px; */
   text-decoration: none;
   font-weight: bold;
 }
@@ -84,8 +84,6 @@ li a:hover {
   display: table;
 }
 
-
-}
 /* MEDIA WINDOWS MOVED TO css/media.css for cleanliness */
 
 

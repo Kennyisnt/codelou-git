@@ -4,7 +4,7 @@
   h1 {
     font-size: 2em;
   }
-  /* .navbar {
+  .navbar {
 
     text-align: center;
     width: 100%;
@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
-  } */
+  }
   .nav-col {
     float: left;
   }
@@ -28,13 +28,14 @@
     padding: 0;
     float: right;
     width: 80%;
-    border: 1px green solid;
+    /* border: 1px green solid; */
 
   }
   nav ul li{
     margin: 0px;
     padding: 0px;
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
+
   }
   @keyframes blink {
      50% { border-color: black; }
@@ -46,7 +47,7 @@
     }
 /* Body Stuff */
 
-  li {
+  nav ul li {
     display: inline-block; /* Apparently this doesn't work in IE7 */
     *display: inline; /* this is here for IE7*/
     zoom:1;
@@ -56,4 +57,3 @@
   }
 
   }
-}
