@@ -1,9 +1,10 @@
 const toggleList = document.getElementById('toggleList');
 const listDiv = document.querySelector('.list');
+//
 const descriptionInput = document.querySelector('input.description');
 const descriptionP = document.querySelector('p.description');
 const descriptionButton = document.querySelector('button.description');
-var toggle = 0;
+//
 const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('button.addItemButton');
 
@@ -28,4 +29,5 @@ descriptionButton.addEventListener('click', () => {
 addItemButton.addEventListener('click', () => {
   let li = document.createElement('li');
   li.textContent = addItemInput.value;
+  
 });
