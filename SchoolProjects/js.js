@@ -1,18 +1,8 @@
+const input = document.querySelector('input');
+const p = document.querySelector('p.description');
+const button = document.querySelector('button');
 
-const myList = document.getElementsByTagName('li');
+button.addEventListener('click', () => {
+  p.innerHTML = input.value + ':';
 
-for (let i = 0; i < myList.length; i+= 1){
-  myList[i].style.color='purple';
-}
-
-
-
-// const myHeading = document.getElementsByTagName('h1')[0];
-// const myButton = document.getElementById('myButton');
-// const myTextInput = document.getElementById('myTextInput');
-//
-//
-// myButton.addEventListener('click', () => {
-//   myHeading.style.color=myTextInput.value;
-//   // document.write('hello');
-// });
+})
