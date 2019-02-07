@@ -54,7 +54,8 @@ li a {
 /* NAV BAR END */
 
 hr {
-  border: 2px solid lime;
+  border: none;
+  border-top: 2px solid lime;
   margin: 20px 0;
 
 }
@@ -73,9 +74,13 @@ hr {
 
 .pokeSubmit {
   border-radius: 50%;
+
   background-color: red;
   width: 50px;
   height: 50px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG");
+  background-repeat: none;
+  background-size: cover;
 }
 
 .reset {
