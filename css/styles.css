@@ -59,7 +59,9 @@ hr {
 
 }
 
-
+.secondarycontent {
+  background-color: #343232;
+}
 .cont-col {
   border: 1px lime solid;
   border-radius: 20px;
