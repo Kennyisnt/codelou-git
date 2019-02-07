@@ -8,9 +8,20 @@
     margin: 0;
     left: 0;
     top: 0;
+    width: 100%;
   }
 
+.nav-left {
+  float: left;
+  width: 49%;
 
+}
+
+.nav-right {
+  float: right;
+  width: 49%;
+
+}
   .nav-row ul li{
     float: right;
     display: inline-block;
@@ -18,18 +29,11 @@
   }
 
   .main-header {
-    width: 19%;
     border: 1px blue solid;
-    margin: 0;
-    padding: 0;
+
   }
 
-  .main-nav {
-    margin: 0;
-    padding: 0;
-    float: right;
-    width: 79%;
-  }
+
 
 
   @keyframes blink {
@@ -44,6 +48,6 @@
 
   }
   hr {
-    margin-top: 40px;
+    margin-top: 114px;
   }
   }
