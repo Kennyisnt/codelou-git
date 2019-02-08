@@ -23,7 +23,6 @@
 
 }
   .nav-row ul li{
-    float: right;
     display: inline-block;
     border: 1px solid green;
   }
@@ -32,8 +31,20 @@
     border: 1px blue solid;
 
   }
+  .cont-col {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float:left;
+  }
+  /* .primarycontent {
+    width: 30%;
+  }
 
-
+  .secondaryconent {
+    width: 40%;
+  } */
 
 
   @keyframes blink {
