@@ -20,23 +20,22 @@ lastListItem.style.backgroundColor = 'lime';
 //sets button rules
 function attachListItemButtons(li) {
   let up = document.createElement('button');
-  up.className="up";
-  up.textContent="up";
-  li.appendChild(up);
+    up.className="up";
+    up.textContent="up";
+    li.appendChild(up);
   let down = document.createElement('button');
-  down.className="down";
-  down.textContent="down";
-  li.appendChild(down);
+    down.className="down";
+    down.textContent="down";
+    li.appendChild(down);
   let remove = document.createElement('button');
-  remove.className="remove";
-  remove.textContent="remove";
-  li.appendChild(remove);
+    remove.className="remove";
+    remove.textContent="remove";
+    li.appendChild(remove);
 }
 
 //adds buttons in HTML
 for (let i = 0; i < lis.length; i += 1) {
   attachListItemButtons(lis[i]);
-
 }
 
 //Makes Down/Up/Remove buttons work
@@ -53,15 +52,16 @@ listUL.addEventListener('click', (event) => {
       let ul = li.parentNode;
       if (prevLi) {
         ul.insertBefore(li, prevLi);
-    }}
+      }
+    }
     if (event.target.className=="down") {
       let li = event.target.parentNode;
       let nextLi = li.nextElementSibling;
       let ul = li.parentNode;
       if (nextLi) {
         ul.insertBefore(nextLi, li);
-    }}
-
+      }
+    }
   }
 });
 
