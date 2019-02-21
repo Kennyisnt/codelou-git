@@ -1,0 +1,64 @@
+
+@media (min-width: 875px) {
+  /* header/navbar section content */
+  .navbar {
+    text-align: center;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+.nav-left {
+  float: left;
+  width: 49%;
+
+}
+
+.nav-right {
+  float: right;
+  width: 49%;
+
+}
+  .nav-row ul li{
+    display: inline-block;
+    border: 1px solid green;
+  }
+
+  .main-header {
+    border: 1px blue solid;
+
+  }
+  .cont-col {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float:left;
+  }
+  /* .primarycontent {
+    width: 30%;
+  }
+
+  .secondaryconent {
+    width: 40%;
+  } */
+
+
+  @keyframes blink {
+     50% { border-color: black; }
+  }
+  .active {
+    border-right: 20px lime solid;
+    animation: blink .5s step-end infinite alternate;
+  }
+  .main-content {
+    padding-top: 230px;
+
+  }
+  hr {
+    margin-top: 114px;
+  }
+  }
