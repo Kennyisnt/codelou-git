@@ -1,11 +1,14 @@
 
-
 $('.spoiler').on('click', 'button', function(event) {
   console.log(event.target);
   //show the spoiler text
   //$('.spoiler span').show();
   //hide the spoiler button
   $(event.target).hide();
+  // show the spoiler text
+  $(this).prev().show();
+  // hide the spoiler button
+  $(this).hide();
 });
 
 
