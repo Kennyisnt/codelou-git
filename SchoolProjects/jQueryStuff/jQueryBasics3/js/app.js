@@ -16,9 +16,14 @@ $pdfs.on('click', function(event) {
   //check if checkbox has been checked
   if ($(':checked').length === 0) {
     //if zero checkboxes are chekded
-    event.preventDefault();
     //prevent download of Documentation
-    alert('Please check the box to allow PDF downloads.');
+    event.preventDefault();
     //alert the $unSecureLinks
+    alert('Please check the box to allow PDF downloads.');
   };
+});
+
+$('a').each(function(){
+  const url = $(this).attr('href');
+  $(this).parent().append(`(${url})`);
 });
