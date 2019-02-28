@@ -38,6 +38,7 @@
     width: 50%;
     float:left;
   }
+
   /* .primarycontent {
     width: 30%;
   }
@@ -62,3 +63,10 @@
     margin-top: 114px;
   }
   }
+ @media (max-width: 1000px) {
+   body {
+     margin: auto;
+     max-width: 1000px;
+   }
+
+ }
