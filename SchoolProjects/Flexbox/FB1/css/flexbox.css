@@ -4,7 +4,19 @@
 
 .container {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  height: 280px;
+}
+
+.item {
+  flex-grow: 1;
+
+}
+
+.item-1 {
+  flex-grow: 3;
+}
+
+.item-2 {
+  flex-grow: 2;
+
 }
