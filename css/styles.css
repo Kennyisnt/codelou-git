@@ -28,10 +28,14 @@ li a:hover {
 body {
   width: 90%;
   margin: 0 auto;
-  background-color: #4C4444;
+  background-color: #D3EAF3;
   border: 2px solid green;
 }
 
+.content {
+  background-color: #AAC5CE;
+
+}
 .mainBody {
   border: blue 1px solid;
 .cat {
