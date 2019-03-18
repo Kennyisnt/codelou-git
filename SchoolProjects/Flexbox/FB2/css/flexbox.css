@@ -4,7 +4,8 @@
 
 @media (min-width: 769px) {
 	.main-header,
-	.main-nav {
+	.main-nav
+	.row {
 		display: flex;
 	}
 
@@ -13,19 +14,25 @@
 		align-items: center;
 
 	}
-
-
+	.col {
+		flex: 1;
+	}
 }
 
-@media (min-width: 1025px) {
+/* @media (min-width: 1025px) { */
 	.main-header,
-	.main-nav {
+	.main-nav,
+	.row {
 		display: flex;
 		flex-direction: row;
 	}
 
+	.primary {
+		flex: 2;
+	}
 	.main-header {
 		justify-content: space-between;
+		align-items: center;
 
 	}
 }
