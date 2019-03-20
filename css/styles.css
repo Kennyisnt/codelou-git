@@ -1,43 +1,70 @@
 /* Universals */
 * {
   text-align: center;
-  font-family: 'Cousine'; font-size: 26px;
+  font-family: 'Comic Sans MS'; font-size: 26px;
 
 }
 /* Navigation */
-ul, a {
-  text-decoration: none;
-  list-style-type: none;
+.navbar {
+  width: 100%;
+  padding-top: 20px;
 }
 
 ul {
+  margin: 0;
   padding: 0;
+  list-style: none;
 }
-
-nav ul li a {
-  color: rede;
-  border: 1px yellow solid;
+h1 {
+  font-family: 'Satisfy';
 }
-
+li a {
+  color: black;
+  display: block;
+  margin: 0 20px;;
+  padding: .5%;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #AAC5CE;
+  border: 1px black solid;
+  box-shadow: 2px 2px 5px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* height: 200px; */
+}
 li a:hover {
-
+ background-color: #D3EAF3;
+ box-shadow: 2px 2px 5px;
 }
+
 
 
 /* Body Content */
+.main-section {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex: 80%; */
+
+}
 body {
   width: 90%;
   margin: 0 auto;
   background-color: #D3EAF3;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .content {
   background-color: #AAC5CE;
+  box-shadow: 2px 2px 5px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px black solid;
+  margin: 10px;
 
 }
 .mainBody {
-  border: blue 1px solid;
+  /* border: blue 1px solid; */
 .cat {
   width: 300px;
   height: 300px;
