@@ -58,7 +58,7 @@ body {
   background-color: #AAC5CE;
   box-shadow: 2px 2px 5px;
   border-radius: 10px;
-  padding: 2em;
+  padding:  .75em 1em;
   border: 1px black solid;
   margin: 10px;
 
@@ -73,9 +73,9 @@ body {
   height: 300px;
 }
 .none {
-  float: right;
-  margin: 20px;
-
+  /* float: right; */
+  /* margin: 20px; */
+/* MOVE TO Media query   */
 }
 .fp-pics {
   display: flex;
