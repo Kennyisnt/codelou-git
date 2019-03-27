@@ -1,4 +1,37 @@
 @media (min-width: 768px){
+/* NAVIGATION */
+/* Navigation */
+  .navbar {
+    width: 100%;
+    padding-top: 20px;
+  }
+  ul {
+    display: flex;
+    justify-content: Flex-end;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li {
+    flex: 1 15%;
+    align-content: center;
+    /* height: 200px; */
+  }
+  nav ul li a {
+    padding-top: 0;
+    height: 75px;
+
+    text-align: center;
+    align-self: center;
+
+
+
+  }
+
+  li a:hover {
+ }
+
+/* BODY START */
+
   .none {
     float: right;
     margin: 20px;
@@ -16,6 +49,7 @@
     /* margin: auto; */
     padding: auto;
   }
+
 
 
 
