@@ -1,0 +1,27 @@
+@media (min-width: 768px){
+  .none {
+    float: right;
+    margin: 20px;
+  /* MOVE TO Media query   */
+  }
+  .main-section{
+    display: flex;
+    /* flex: 1 50%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    flex: 1 300px;
+    /* margin: auto; */
+    padding: auto;
+  }
+
+
+
+
+
+}
+
+
+@media (min-width: )
