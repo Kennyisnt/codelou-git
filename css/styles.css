@@ -6,30 +6,6 @@
 }
 
 /* Navigation */
-.navbar {
-  width: 100%;
-  padding-top: 20px;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-li a {
-  color: black;
-  display: block;
-  margin: 0 10px;
-  padding: .5%;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: #AAC5CE;
-  border: 1px black solid;
-  box-shadow: 2px 2px 5px;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /* height: 200px; */
-}
 li a:hover {
  background-color: #D3EAF3;
  box-shadow: 2px 2px 5px;
@@ -41,9 +17,10 @@ hr {
 
 
 /* Body Content */
-.mainBody h1 {
+.mainBody h1, .fancyscript {
   font-family: 'Satisfy';
 }
+
 
 .main-section {
   /* Move To Media Queries */
@@ -53,32 +30,37 @@ hr {
 
 }
 body {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
   background-color: #D3EAF3;
+  background-image: url("img/jellybeans");
   /* border: 2px solid green; */
 }
 
+/* .cat1 {
+  width: 100%;
+  height: 100%;
+} */
+.backblue,
+.cardColor,
 .content {
   background-color: #AAC5CE;
+}
+
+.backbluer {
+  background-color: #6ab1c9;
+}
+
+.content-bord {
+  border: 1px solid black;
   box-shadow: 2px 2px 5px;
-  border-radius: 10px;
-  padding:  .75em 1em;
-  border: 1px black solid;
-  margin: 10px;
-
-}
-.mainBody {
-  /* border: blue 1px solid; */
-
-}
-
-.cat {
-  width: 300px;
-  height: 300px;
+  border-radius: 20px;
 }
 
 
+*, ::after, ::before {
+    box-sizing: content-box;
+}
 /* Footer */
 
 .dasfooter p {
@@ -106,15 +88,14 @@ body {
   text-decoration: none;
   border: 2px solid black;
   background-color: #AAC5CE;
-
   color: black;
 }
-footer p, footer a {
+footer p,
+footer a {
   font-size: 16px;
+  /* color: black; */
 }
-#top a {
-  position: relative;
-}
+
 
 /*  Clear Fix Thing */
 .clearfix::after {
