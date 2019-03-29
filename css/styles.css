@@ -29,6 +29,7 @@ li a:hover {
 .jumbotron {
   background-repeat: no-repeat;
   background-image: url('../img/hdimg.jpg');
+  background-size: cover;
   filter: grayscale(100%);
   /* background-size: cover; */
 }
