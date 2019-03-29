@@ -1,7 +1,8 @@
 /* Universals */
 * {
   text-align: center;
-  font-family: 'Comic Sans MS'; font-size: 26px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
 
 }
 
@@ -11,27 +12,27 @@ li a:hover {
  box-shadow: 2px 2px 5px;
 }
 
-hr {
-  border: 1px black solid;
+.jumbotron {
+  background-image: url('../img/jellybeans.jpg');
+  background-repeat: no-repeat;
+  filter: grayscale(80%);
+  background-size: cover;
 }
 
+.cat {
+  height: 300px;
+  width: 300px;
 
+}
 /* Body Content */
-.mainBody h1, .fancyscript {
+.mainBody,
+.fancyscript {
   font-family: 'Satisfy';
 }
 
-
-.main-section {
-  /* Move To Media Queries */
-  /* display: flex;
-  flex-direction: row;
-  flex: 50%; */
-
-}
 body {
   /* width: 90%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: #D3EAF3;
   background-image: url("img/jellybeans");
   /* border: 2px solid green; */
@@ -58,7 +59,7 @@ body {
 }
 
 
-*, ::after, ::before {
+.fa, ::after, ::before {
     box-sizing: content-box;
 }
 /* Footer */
@@ -75,7 +76,7 @@ body {
 }
 .fa:hover {
   background-color: #D3EAF3;
-  color: black;
+  text-decoration: none;
 }
 .social {
   padding: 20px;
@@ -90,6 +91,18 @@ body {
   background-color: #AAC5CE;
   color: black;
 }
+
+.pokeSubmit,
+.pokeReveal {
+  border-radius: 50%;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG");
+  background-repeat: none;
+  background-size: cover;
+}
+
 footer p,
 footer a {
   font-size: 16px;
