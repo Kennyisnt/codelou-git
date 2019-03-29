@@ -18,5 +18,4 @@ const $button = $('<button>Reveal Spoiler</button>');
 $('.spoiler').append($button);
 
 //hide the spoiler text
-$('.spoiler span').hide();
 //when the button is pressed
