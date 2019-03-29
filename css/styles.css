@@ -13,12 +13,13 @@ li a:hover {
 }
 
 .jumbotron {
-  background-image: url('../img/jellybeans.jpg');
   background-repeat: no-repeat;
-  filter: grayscale(80%);
   background-size: cover;
 }
 
+.grayOver {
+  color: black;
+}
 .cat {
   height: 300px;
   width: 300px;
@@ -34,7 +35,6 @@ body {
   /* width: 90%; */
   /* margin: 0 auto; */
   background-color: #D3EAF3;
-  background-image: url("img/jellybeans");
   /* border: 2px solid green; */
 }
 
@@ -44,12 +44,16 @@ body {
 } */
 .backblue,
 .cardColor,
-.content {
+.content,
+.social {
   background-color: #AAC5CE;
+  border: 1px solid black;
 }
 
 .backbluer {
   background-color: #6ab1c9;
+  border: 1px solid black;
+
 }
 
 .content-bord {
@@ -76,6 +80,8 @@ body {
 }
 .fa:hover {
   background-color: #D3EAF3;
+  color: gray;
+
   text-decoration: none;
 }
 .social {
@@ -88,7 +94,6 @@ body {
   text-align: center;
   text-decoration: none;
   border: 2px solid black;
-  background-color: #AAC5CE;
   color: black;
 }
 

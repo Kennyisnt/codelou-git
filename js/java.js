@@ -50,3 +50,8 @@ $('.pokeKazam').on('click', 'button', function(event) {
   $('.pokeQuestion').hide();
   $('.pokeHider').show();
 });
+
+$('.aboutButton').on('click', 'button', function(event) {
+  console.log('test');
+  $('.aboutMe').hide();
+});
