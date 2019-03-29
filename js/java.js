@@ -40,7 +40,7 @@ function pokeQuiz(){
       alert("Please enter the two digit year. ('0' will work for 2000)");
       end;
     }
-    pokeResults.innerHTML = "<h2>Your Team Is ..."  + Pokemon[pokeMonth] + " " + Pokemon[pokeDay] + " " + Pokemon[pokeYear] + "</h2>";
+    pokeResults.innerHTML = "<h2>Your Team Is ... "  + Pokemon[pokeMonth] + " " + Pokemon[pokeDay] + " " + Pokemon[pokeYear] + "</h2>";
 }
 
 // When the Initial Pokeball is clicked - the pokeball will reveal the quiz
