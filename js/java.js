@@ -29,7 +29,7 @@ function pokeQuiz(){
     }
   // Day Checker
     if (pokeDay>31) {
-      alert("Please Enter the Day Again - This must be between 0-12");
+      alert("Please Enter the Day Again - This must be between 0-31");
       end;
     } else if (pokeDay==0) {
       alert("Please use a valid day. 0 Is not a Valid day.")
