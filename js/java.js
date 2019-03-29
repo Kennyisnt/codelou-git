@@ -1,7 +1,8 @@
-$('.pokeHider').hide();
 
 const pokeResults = document.querySelector('.pokeResults');
 const pokeSubmit = document.querySelector('button.pokeSubmit');
+
+
 //Sets Pokemon Array/Table for the Quiz
 //Will Need To Randomize This List for a More Unique Variety
 //Do I even need all 100??
@@ -17,6 +18,7 @@ function pokeQuiz(){
     pokeMonth = parseInt(pokeMonth);
     pokeDay = parseInt(pokeDay);
     pokeYear = parseInt(pokeYear);
+    // $('.pokeHider').hide();
     // Code Checker - MDY
     if (pokeMonth>12) {
       alert("Please Enter the Month Again - This must be between 0-12");
@@ -41,9 +43,20 @@ function pokeQuiz(){
     pokeResults.innerHTML = "<h2>Your Team Is ..."  + Pokemon[pokeMonth] + " " + Pokemon[pokeDay] + " " + Pokemon[pokeYear] + "</h2>";
 }
 
-//Hides and Reveals The Pokemon Birthday Team Program"
+// When the Initial Pokeball is clicked - the pokeball will reveal the quiz
 $('.pokeKazam').on('click', 'button', function(event) {
   $(event.target).hide();
   $('.pokeQuestion').hide();
   $('.pokeHider').show();
+});
+
+
+// Hides Quiz Initially
+$('.pokeHider').hide();
+
+$('.contactButton').click(function(event) {
+  $(".contactMeHere").fadeOut(30).fadeIn(1000);
+});
+$('.aboutButton').click(function(event) {
+  $(".aboutMe").fadeOut(30).fadeIn(1000);
 });
