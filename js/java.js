@@ -41,17 +41,9 @@ function pokeQuiz(){
     pokeResults.innerHTML = "<h2>Your Team Is ..."  + Pokemon[pokeMonth] + " " + Pokemon[pokeDay] + " " + Pokemon[pokeYear] + "</h2>";
 }
 
-
-
-
 //Hides and Reveals The Pokemon Birthday Team Program"
 $('.pokeKazam').on('click', 'button', function(event) {
   $(event.target).hide();
   $('.pokeQuestion').hide();
   $('.pokeHider').show();
-});
-
-$('.aboutButton').on('click', 'button', function(event) {
-  console.log('test');
-  $('.aboutMe').hide();
 });

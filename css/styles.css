@@ -5,6 +5,20 @@
   font-size: 24px;
 
 }
+/* Color Decorations */
+.backblue,
+.cardColor,
+.content,
+.social {
+  background-color: #AAC5CE;
+  border: 1px solid black;
+}
+
+.backbluer {
+  background-color: #6ab1c9;
+  border: 1px solid black;
+
+}
 
 /* Navigation */
 li a:hover {
@@ -32,28 +46,7 @@ li a:hover {
 }
 
 body {
-  /* width: 90%; */
-  /* margin: 0 auto; */
   background-color: #D3EAF3;
-  /* border: 2px solid green; */
-}
-
-/* .cat1 {
-  width: 100%;
-  height: 100%;
-} */
-.backblue,
-.cardColor,
-.content,
-.social {
-  background-color: #AAC5CE;
-  border: 1px solid black;
-}
-
-.backbluer {
-  background-color: #6ab1c9;
-  border: 1px solid black;
-
 }
 
 .content-bord {
@@ -66,7 +59,6 @@ body {
 .fa, ::after, ::before {
     box-sizing: content-box;
 }
-/* Footer */
 
 .dasfooter p {
   font-size: 16px;
@@ -111,7 +103,6 @@ body {
 footer p,
 footer a {
   font-size: 16px;
-  /* color: black; */
 }
 
 
